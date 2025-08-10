@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>CFBundleDisplayName</key>
+        <string>RepeatAlarm</string>
+        <key>CFBundleIdentifier</key>
+        <string>com.yourcompany.RepeatAlarm</string>
+        <key>CFBundleName</key>
+        <string>RepeatAlarm</string>
+        <key>NSCalendarsUsageDescription</key>
+        <string>アラームの通知設定のためカレンダーを使用します。</string>
+        <key>NSMicrophoneUsageDescription</key>
+        <string>サウンド再生のためマイクの使用を求めることがあります。</string>
+        <key>UIBackgroundModes</key>
+        <array>
+            <string>audio</string>
+            <string>fetch</string>
+            <string>remote-notification</string>
+        </array>
+        <key>NSUserNotificationUsageDescription</key>
+        <string>アラーム通知の送信に必要です。</string>
+        <key>NSUserNotificationAlertStyle</key>
+        <string>alert</string>
+    </dict>
+</plist>
