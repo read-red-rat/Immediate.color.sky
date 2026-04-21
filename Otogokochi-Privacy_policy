@@ -1,5 +1,5 @@
 
-『バイブタイマー/Quick Silent Timer』のプライバシーポリシー
+『音ごこち/Native Sound Mixer』のプライバシーポリシー
         ・広告用IDの使用
             アプリ内広告（Nend）で必要とされています
             送信情報
@@ -12,7 +12,7 @@
         ・その他（ネットワーク接続の表示、ネットワークへのフルアクセス）
             アプリ内広告（Nend）で必要とされています
 
-Privacy Policy for "Vibration Timer/Quick Silent Timer"
+Privacy Policy for "『音ごこち/Native Sound Mixer』
 ・Use of advertising ID
 Required for in-app advertising (Nend)
 Transmitted information
@@ -20,7 +20,7 @@ Anonymous ID (UIID for Android/UIID or IDFA for iOS)
 Device information (information obtainable from user agent/OS version information and model information)
 No personal information other than the above is used
 Click here for Nend's privacy policy Personal information protection policy | Fun Communications Inc.
-・Permission for notifications
-Necessary to sound the alarm when the time is up.
+・Permission for foregroundservice
+Necessary to Native sound on foreground.
 ・Other (display network connection, full access to network)
 Required for in-app advertising (Nend)
