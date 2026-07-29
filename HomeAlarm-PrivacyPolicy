@@ -1,14 +1,162 @@
-『おうちアラーム/HomeAlarm』のプライバシーポリシー
-        ・広告用IDの使用
-            アプリ内広告（Nend）で必要とされています
-            送信情報
-                匿名ＩＤ（androidではＵＩＩＤ/iOSではUIIDまたはＩＤＦＡ）
-                端末情報（ユーザーエージェントから取得できる情報/ＯＳver情報や機種情報）
-            上記以外の個人情報は利用していません
-            Nend のプライバシーポリシーはこちらです 個人情報保護方針｜株式会社ファンコミュニケーションズ
-        ・通知の許可
-        　　指定された時間にアラームを鳴動させるために必要です。
-　　　　　・位置情報の許可
-　　　　　　　指定されたwifiに繋がっているかを検知するために必要です
-        ・その他（ネットワーク接続の表示、ネットワークへのフルアクセス）
-            アプリ内広告（Nend）で必要とされています
+# プライバシーポリシー / Privacy Policy
+
+**おうちアラーム / HomeAlarm**
+制定日 / Effective date: 2026-07-29
+連絡先 / Contact: read.red.rat@gmail.com
+
+---
+
+## 日本語
+
+### 1. はじめに
+
+本プライバシーポリシーは、Androidアプリ「おうちアラーム」(以下「本アプリ」)における
+情報の取り扱いについて説明するものです。本アプリは「自宅にいる時だけ鳴るアラーム」を
+提供するアプリです。
+
+### 2. 位置情報について
+
+本アプリは、**「自宅にいるかどうか」を判定する目的に限って**、位置情報の権限を使用します。
+
+**何にアクセスするか**
+Androidの仕様上、端末が接続中のWiFiネットワーク名(SSID)およびアクセスポイント識別子
+(BSSID)の取得には位置情報権限が必要です。本アプリが位置情報権限で取得するのは
+**この接続中WiFiの情報のみ**です。GPS等による緯度・経度の取得は行いません。
+
+**いつアクセスするか**
+- アラームが鳴る直前(自宅WiFiに接続しているかを数秒間確認するため。アプリが
+  バックグラウンドにある状態で行われるため、位置情報の「常に許可」が必要です)
+- アプリの画面を開いている間(ホーム画面の在宅判定表示のため)
+- ユーザーが「自宅WiFiを登録」する操作をしたとき
+
+**どう使い、どう保存するか**
+- 取得したWiFi名は、ユーザーが登録した自宅WiFi名との**照合のみ**に使用します
+- 保存されるのは、ユーザーが登録した自宅WiFiの名前(SSID/BSSID)のみで、
+  **保存先は端末内のデータベースに限られます**
+- 位置情報・WiFi情報を**端末の外部に送信することは一切ありません**
+- 移動履歴・行動履歴の記録は行いません
+
+**削除方法**
+登録した自宅WiFi情報は、アプリ内の設定画面からいつでも削除できます。
+アプリをアンインストールすると、すべてのデータが端末から削除されます。
+
+### 3. 広告について(Google AdMob)
+
+本アプリは、無料提供のために Google AdMob による広告を表示します。
+広告配信のため、Google が以下の情報を取得することがあります。
+
+- 広告ID(Advertising ID)
+- IPアドレス、端末の機種・OSバージョン等の端末情報
+- 広告の表示・タップに関する情報
+
+これらの情報は開発者ではなく Google が取得・処理します。詳細は以下をご確認ください。
+
+- Google プライバシーポリシー: https://policies.google.com/privacy
+- Google 広告のパーソナライズ設定: https://adssettings.google.com
+- AdMob のデータ利用について: https://support.google.com/admob/answer/6128543
+
+端末の設定(「プライバシー > 広告」)から広告IDのリセットやパーソナライズ広告の
+オプトアウトが可能です。
+
+### 4. ユーザーが入力するデータ
+
+アラーム名・時刻・曜日などの設定内容、および鳴動履歴は、**端末内にのみ保存**され、
+外部に送信されることはありません。
+
+### 5. 開発者が収集するデータ
+
+開発者(本アプリ)が独自のサーバーへユーザーの個人情報を送信・収集することは
+**一切ありません**。
+
+### 6. 子どものプライバシー
+
+本アプリは13歳未満の子どもを対象としたものではなく、子どもから意図的に個人情報を
+収集することはありません。
+
+### 7. ポリシーの変更
+
+本ポリシーを変更する場合は、本ページを更新します。重要な変更がある場合は
+アプリ内またはストアページでお知らせします。
+
+### 8. お問い合わせ
+
+本ポリシーに関するお問い合わせは、read.red.rat@gmail.com までご連絡ください。
+
+---
+
+## English
+
+### 1. Introduction
+
+This Privacy Policy explains how the Android app "HomeAlarm" (the "App") handles
+information. The App provides alarms that ring only while you are at home.
+
+### 2. Location
+
+The App uses the location permission **solely to determine whether you are at home**.
+
+**What is accessed**
+On Android, reading the name (SSID) and access-point identifier (BSSID) of the
+Wi-Fi network the device is connected to requires location permission. The App
+accesses **only this connected Wi-Fi information**. It does not obtain
+latitude/longitude via GPS.
+
+**When it is accessed**
+- Just before an alarm rings, to check for a few seconds whether the device is
+  connected to your registered home Wi-Fi (this happens while the app is in the
+  background, which is why "Allow all the time" location access is required)
+- While the app is open on screen, to show the at-home status
+- When you register your home Wi-Fi
+
+**How it is used and stored**
+- The obtained Wi-Fi name is used **only to compare** against the home Wi-Fi you registered
+- Only the registered home Wi-Fi name (SSID/BSSID) is stored, and **only in a
+  database on your device**
+- Location and Wi-Fi information is **never transmitted off your device**
+- No movement or behavioral history is recorded
+
+**Deletion**
+You can delete registered home Wi-Fi entries at any time from the in-app Settings.
+Uninstalling the App removes all data from your device.
+
+### 3. Advertising (Google AdMob)
+
+The App shows ads served by Google AdMob to remain free. For ad delivery,
+Google may collect:
+
+- Advertising ID
+- Device information such as IP address, device model, and OS version
+- Ad impression and interaction data
+
+This information is collected and processed by Google, not by the developer. See:
+
+- Google Privacy Policy: https://policies.google.com/privacy
+- Google Ads Settings: https://adssettings.google.com
+- How Google uses data in AdMob: https://support.google.com/admob/answer/6128543
+
+You can reset your Advertising ID or opt out of ad personalization in your
+device settings (Privacy > Ads).
+
+### 4. Data you enter
+
+Alarm names, times, repeat days, and ring/skip history are stored **only on your
+device** and are never transmitted externally.
+
+### 5. Data collected by the developer
+
+The developer does **not** transmit or collect any personal information to any
+server of their own.
+
+### 6. Children's privacy
+
+The App is not directed to children under 13 and does not knowingly collect
+personal information from children.
+
+### 7. Changes to this policy
+
+If this policy changes, this page will be updated. Material changes will be
+announced in the app or on the store page.
+
+### 8. Contact
+
+For questions about this policy, contact read.red.rat@gmail.com.
