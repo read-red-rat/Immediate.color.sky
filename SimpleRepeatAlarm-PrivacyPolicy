@@ -1,26 +1,71 @@
+『リピートアラーム / Simple Repeat Alarm』プライバシーポリシー
 
-『リピートアラーム/SimpleRepeatAlarm』のプライバシーポリシー
-        ・広告用IDの使用
-            アプリ内広告（Nend）で必要とされています
-            送信情報
-                匿名ＩＤ（androidではＵＩＩＤ/iOSではUIIDまたはＩＤＦＡ）
-                端末情報（ユーザーエージェントから取得できる情報/ＯＳver情報や機種情報）
-            上記以外の個人情報は利用していません
-            Nend のプライバシーポリシーはこちらです 個人情報保護方針｜株式会社ファンコミュニケーションズ
-        ・通知の許可
-        　　タイムアップ時のアラームを鳴動させるために必要です。
-        ・その他（ネットワーク接続の表示、ネットワークへのフルアクセス）
-            アプリ内広告（Nend）で必要とされています
+制定日: 2026年10月25日
 
-Privacy Policy for "SimpleRepeatAlarm"
-・Use of advertising ID
-Required for in-app advertising (Nend)
-Transmitted information
-Anonymous ID (UIID for Android/UIID or IDFA for iOS)
-Device information (information obtainable from user agent/OS version information and model information)
-No personal information other than the above is used
-Click here for Nend's privacy policy Personal information protection policy | Fun Communications Inc.
-・Permission for notifications
-Necessary to sound the alarm when the time is up.
-・Other (display network connection, full access to network)
-Required for in-app advertising (Nend)
+本アプリは、アラームの設定を端末の中だけに保存します。開発者が運営するサーバーへ、アラームの内容や個人情報を送ることはありません。
+
+1. 広告について
+本アプリは、Google LLC が提供する広告配信サービス「Google AdMob」を利用しています。広告の配信、効果の測定、不正の防止のために、Google が次の情報を収集することがあります。
+・広告識別子（IDFA。トラッキングを許可した場合のみ）と、アプリやデベロッパーに限定された端末の識別子
+・IP アドレスから推定されるおおよその位置
+・端末の情報（機種、OS のバージョンなど）
+・表示された広告や、広告・アプリの操作に関する情報
+・クラッシュや動作の状況に関する情報
+Google による情報の取り扱いは、次のページをご覧ください。
+・Google プライバシーポリシー: https://policies.google.com/privacy
+・Google のサービスを使用するサイトやアプリから収集した情報の Google による使用: https://policies.google.com/technologies/partner-sites
+
+2. トラッキングの許可（App Tracking Transparency）
+本アプリは、より関連性の高い広告を表示するために、広告識別子の利用の許可をお願いすることがあります。許可しなくても、アプリのすべての機能を使えます。設定はいつでも、iPhone の「設定」>「プライバシーとセキュリティ」>「トラッキング」、または本アプリの「設定」>「トラッキングの設定を開く」から変更できます。
+
+3. 欧州経済領域・英国・スイスの利用者の同意
+これらの地域では、広告のための情報の利用について、Google の同意管理の仕組みで同意をお願いします。同意の内容は、本アプリの「設定」>「プライバシー設定」からいつでも変更できます。
+
+4. 通知とアラームの許可
+アラームを指定の時刻に鳴らすために、通知の許可をお願いします。iOS 26.1 以降では、マナーモードや集中モード中でも鳴らすために、アラームの許可をお願いすることがあります。これらの許可で得た情報を、開発者が収集することはありません。
+
+5. 端末に保存する情報
+アラームの時刻、名前、音、繰り返しの設定と、アプリの利用状況（アラームが鳴った回数など。レビューのお願いを出す時期の判断に使います）は、端末の中だけに保存します。アプリを削除すると消えます。
+
+6. 改定
+本ポリシーを改定した場合は、このページでお知らせします。
+
+7. お問い合わせ
+サポートページ: https://github.com/read-red-rat
+
+----------------------------------------
+
+Privacy Policy for "Simple Repeat Alarm"
+
+Effective date: October 25, 2026
+
+This app stores your alarm settings only on your device. It does not send your alarms or personal information to any server run by the developer.
+
+1. Advertising
+This app uses Google AdMob, an advertising service provided by Google LLC. To serve ads, measure their performance and prevent fraud, Google may collect:
+- the advertising identifier (IDFA, only if you allow tracking) and identifiers limited to the app or developer
+- approximate location estimated from your IP address
+- device information such as model and OS version
+- information about ads shown and your interactions with ads and the app
+- crash and performance information
+For how Google handles this information, see:
+- Google Privacy Policy: https://policies.google.com/privacy
+- How Google uses information from sites or apps that use our services: https://policies.google.com/technologies/partner-sites
+
+2. Permission to track (App Tracking Transparency)
+The app may ask for permission to use the advertising identifier to show more relevant ads. You can use every feature of the app without allowing it. You can change this at any time in iPhone Settings > Privacy & Security > Tracking, or in the app's Settings > Open Tracking Settings.
+
+3. Consent in the EEA, the UK and Switzerland
+In these regions, the app asks for your consent to use information for advertising through Google's consent management. You can change your choices at any time in the app's Settings > Privacy Settings.
+
+4. Notifications and alarms
+The app asks for permission to send notifications so that alarms ring on time. On iOS 26.1 and later, it may ask for permission to use alarms so they ring even in Silent mode or Focus. The developer does not collect any information through these permissions.
+
+5. Information stored on your device
+Your alarm times, names, sounds and repeat settings, and app usage such as how many times alarms have rung (used to decide when to ask for a review) are stored only on your device. They are deleted when you delete the app.
+
+6. Changes
+If this policy changes, we will post the update on this page.
+
+7. Contact
+Support page: https://github.com/read-red-rat
